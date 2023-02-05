@@ -1,0 +1,80 @@
+.loker {
+  margin-top: 3rem;
+}
+
+.loker__card {
+  background-color: #2c4863;
+  border-radius: 4px;
+  padding: 3rem;
+  position: relative;
+  color: #b6cce2;
+}
+
+.loker__group {
+  margin-bottom: 1.75rem;
+}
+
+.loker__label {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+}
+
+.loker__input::placeholder {
+  color: #b6cce2;
+}
+
+.loker__input {
+  display: inline-block;
+  width: 100%;
+  background-color: #1f364d;
+  color: #b6cce2;
+  padding: 0.75rem 1.25rem;
+  border-radius: 4px;
+}
+
+.loker__banner {
+  background-color: #1f364d;
+  /* padding: 1.25rem 2.5rem; */
+  cursor: pointer;
+  display: block;
+  width: 120px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.loker__banner i {
+  font-size: 1.5rem;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator {
+  background-color: #b6cce2;
+  opacity: 1;
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.loker__link {
+  margin-bottom: 0.5rem;
+}
+
+.loker__rule {
+  font-size: 0.75rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.loker__button {
+  background-color: #3590eb;
+  color: #fff;
+  display: block;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 4px;
+  margin-top: 2rem;
+}

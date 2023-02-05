@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/config.css">
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/loker.css" />
+    <title>BALE LOKER</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="nav container">
+        <a href="index.html" class="nav__logo"
+          ><span><i class="bx bxs-home-smile"></i></span></i>BALE LOKER</a
+        >
+        <a href="loker.html" class="nav__button"
+          ><i class="bx bx-plus-circle"></i>Buat Loker</a
+        >
+      </div>
+    </header>
+    <main>
+        <section class="section loker container">
+            <div class="loker__card">
+                <form action="" class="loker__form">
+                    <div class="loker__group">
+                        <label for="posisi" class="loker__label">Nama Perusahaan *</label>
+                        <input type="text" placeholder="" class="loker__input">
+                    </div>
+                    <div class="loker__group">
+                        <label for="posisi" class="loker__label">Posisi yang ditawarkan *</label>
+                        <select class="loker__input" name="" id="">
+                          <option value="">== pilih ==</option>
+                          <option value="1">Frontend</option>
+                          <option value="1">Backend</option>
+                          <option value="1">Fullstack</option>
+                        </select>
+                    </div>
+                    <div class="loker__group">
+                        <label for="posisi" class="loker__label">Lokasi Penempatan Karyawan *</label>
+                        <select class="loker__input" name="" id="">
+                           <option value="">== pilih ==</option>
+                          <option value="1">Jakarta</option>
+                          <option value="1">Bali</option>
+                          <option value="1">Lombok</option>
+                        </select>
+                    </div>
+                    <div class="loker__group">
+                      <label for="posisi" class="loker__label">Tags *</label>
+                      <select class="loker__input" name="" id="">
+                         <option value="">== pilih ==</option>
+                          <option value="1">api</option>
+                          <option value="1">html</option>
+                          <option value="1">css</option>
+                        </select>
+                  </div>
+                    <div class="loker__group">
+                        <label for="posisi" class="loker__label">Banner *</label>
+                        <label for="banner" class="loker__banner"><i class='bx bx-upload'></i></label>
+                        <input type="file" style="display: none;" id="banner" placeholder="Contoh: Mataram, Lombok Barat" class="loker__input">
+                    </div>
+                    <div class="loker__group">
+                        <label for="posisi" class="loker__label">Detail Pekerjaan *</label>
+                        <textarea rows="8" class="loker__input loker__textarea"></textarea>
+                    </div>
+                    <div class="loker__group">
+                        <label for="posisi" class="loker__label">Syarat Pendaftaran *</label>
+                        <textarea rows="8" class="loker__input loker__textarea"></textarea>
+                    </div>
+                    <div class="loker__group">
+                        <label for="posisi" class="loker__label">Tanggal Akhir Pendaftaran *</label>
+                        <input type="date"  class="loker__input">
+                    </div>
+                    <div class="loker__group">
+                        <label for="paycheck" class="loker__label">Gaji</label>
+                        <input type="number" placeholder="" class="loker__input">
+                    </div>
+                    <div class="loker__group">
+                        <label for="posisi" class="loker__label">Link Pendaftaran *</label>
+                        <input type="text" placeholder="Isikan alamat email anda" class="loker__input loker__link">
+                        <input type="text" placeholder="Isikan nomer whatsapp anda" class="loker__input loker__link">
+                        <input type="text" placeholder="https://" class="loker__input loker__link">
+                    </div>
+
+                    <button type="submit" class="loker__button">Terbitkan</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__copyright">© baleloker. All rigths reserved</p>
+    </footer>
+  </body>
+</html>
